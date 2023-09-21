@@ -1,0 +1,73 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container .dividing-line {
+    /* width: 1px; */
+    /* height: 300px; */
+    margin: 0 20px;
+}
+
+.container .square {
+    width: 400px;
+    height: 200px;
+
+    background-color: #ffffff;
+    /* 使用蓝色作为背景色，你可以根据需要修改颜色 */
+    border: 1px solid #000000;
+    /* 添加边框，你可以根据需要修改边框的颜色和大小 */
+    border-radius: 10px;
+}
+
+.container .square .content {
+
+    padding: 16px 5px 5px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.content .num-w {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.content .concept-t {
+    font-size: 15px;
+    font-weight: 600;
+    padding-right: 10px;
+    color: #fdc705;
+}
+
+.square .content-item {
+    width: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.square .cont-time {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 5rem;
+    margin: 10px;
+    border-top: 1px solid #797979;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
